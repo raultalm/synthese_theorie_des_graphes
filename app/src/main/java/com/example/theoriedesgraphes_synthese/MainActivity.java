@@ -23,20 +23,34 @@ public class MainActivity extends AppCompatActivity {
     private String[] topics = {
             "Connexité",
             "G. Eulerien",
+            "Algo de Fleury",
             "G. Hamiltonien",
+            "Thm. de Dirac",
+            "Thm. d'Ore",
             "Arete de coupure, point d'articulation",
             "Coupe, ensemble de coupures",
             "Problème de sens unique",
-            "Clique"
+            "Clique",
+            "Tri topologique",
+            "Arbres",
+            "Algo. de Prim",
+            "Algo. de Kruskal"
     };
     private Class[] classes = {
             Connexity.class,
             Eulerien.class,
+            Eulerien.class,
+            Hamiltonien.class,
+            Hamiltonien.class,
             Hamiltonien.class,
             Arete_coupure.class,
             Coupe_Ensemble_Coupures.class,
             Probleme_sens_unique.class,
-            Clique.class
+            Clique.class,
+            Tri_topologique.class,
+            Arbres.class,
+            Arbres.class,
+            Arbres.class
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {

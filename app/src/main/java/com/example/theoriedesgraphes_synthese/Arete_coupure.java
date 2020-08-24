@@ -28,10 +28,16 @@ public class Arete_coupure extends AppCompatActivity {
         container_linear = (LinearLayout) findViewById(R.id.arete_coupure_verticalLayout);
         Outils outils = new Outils();
 
+        outils.add_title(this, "Aretes de coupure", 20, 30,0,true, container_linear);
+
         outils.add_definition(this, def_arete_coupure, 15, 30, container_linear);
         outils.add_image(this, R.drawable.arete_coupure, 15, 30, container_linear);
         outils.add_definition(this, def_2, 15, 30, container_linear);
         outils.add_other(this, other_1, 15, 30, container_linear);
+
+
+        outils.add_title(this, "Points d'articulation", 20, 30,2,true, container_linear);
+
         outils.add_definition(this, def_point_articulation, 15, 30, container_linear);
         outils.add_image(this, R.drawable.point_articulation, 15, 30, container_linear);
         outils.add_other(this, other_2, 15, 30, container_linear);

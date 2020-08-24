@@ -15,8 +15,8 @@
     <color name="proprety_color">#30C399</color>
     <color name="proprety_color1">#07ABCA</color>
     <color name="lemme_color">#EE9238</color>
-    <color name="theoreme_color">#3B59FF</color>
-    <color name="other_color">#6256A8</color>
+    <color name="theoreme_color">#6256A8</color>
+    <color name="other_color">#3B59FF</color>
     <color name="algorithme_color">#5D6D85</color>
 
 </resources>

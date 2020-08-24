@@ -23,6 +23,7 @@ public class Connexity extends AppCompatActivity {
     private String propr_sous_arbre_couvrant = "Un graphe G est connexe ssi il possede un SOUS-ARBRE COUVRANT.";
     private String other_1 = "Pour vérifier si un graphe est toujours connexe:" +
             "\nsi on enleve un sommet/arete, on regatde si on peut toujours visiter tous les sommets (restants).";
+    private String propr_matrice = "Matrice irréductible <=> graphe f.connexe";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,5 +40,6 @@ public class Connexity extends AppCompatActivity {
         outils.add_propriety(this, propr_sans_cycle , 15, 30, container_linear);
         outils.add_propriety(this, propr_sous_arbre_couvrant , 15, 30, container_linear);
         outils.add_other(this, other_1 , 15, 30, container_linear);
+        outils.add_propriety(this, propr_matrice, 15, 30, container_linear);
     }
 }
