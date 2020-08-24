@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="background">#111622</color>
+    <color name="background_btn">#5A88ED</color>
+    <color name="text_color">#F2F5F8</color>
+    <color name="title_color">#F2F5F8</color>
+    <color name="hint_color">#334D65</color>
+    <color name="hint_color1">#1A202E</color>
+    <color name="line_color">#41474F</color>
+    <color name="def_color">#DB2B51</color>
+    <color name="proprety_color">#30C399</color>
+    <color name="proprety_color1">#07ABCA</color>
+    <color name="lemme_color">#EE9238</color>
+    <color name="theoreme_color">#3B59FF</color>
+    <color name="other_color">#6256A8</color>
+    <color name="algorithme_color">#5D6D85</color>
+
+</resources>
