@@ -8,6 +8,8 @@ public class Eulerien extends AppCompatActivity {
     private LinearLayout container_linear;
     private String def_G_eulerien = "-> G=(V, E) est eulerien s'il contient un CIRCUIT eulerien ET si chaque SOMMET est de degré PAIR.";
     private String def_chemin_eulerien = "-> Un chemin eulerien est un chemin qui passe une et une seule fois par chaque ARC du graphe.";
+    private String prop_chaine_eulerien = "Un graphe G admet une CHAINE eulérienne si ce graphe posséde 0 ou 2 sommets de degré IMPAIR. Alors la chaine relie ces 2 sommets (si 2 sommets il y a).\n" +
+            "\t En effet, un chemin/chaine eulerienne est un circuit auquel on a enlevé une arete/un arc, donc il est normale de se retrouver avec deux sommets de degré impair.";
     private String prop_1 = "Pour que G soit eulerien, donc qu'il posséde un circuit eulerien, il faut:\n" +
             "\t - G non orienté : le degré de chaque somment est PAIR;\n" +
             "\t - G orienté : d^-(v) = d^+(v), ∀v∈V;\n" +
@@ -26,6 +28,7 @@ public class Eulerien extends AppCompatActivity {
 
         outils.add_definition(this, def_G_eulerien, 15, 30, container_linear);
         outils.add_definition(this, def_chemin_eulerien, 15, 30, container_linear);
+        outils.add_propriety(this, prop_chaine_eulerien, 15, 30, container_linear);
         outils.add_propriety(this, prop_1, 15, 30, container_linear);
         outils.add_algorithm(this, algo_Fleury, 15, 30, container_linear);
         outils.add_image(this, R.drawable.rsz_fleury, 15, 30, container_linear);

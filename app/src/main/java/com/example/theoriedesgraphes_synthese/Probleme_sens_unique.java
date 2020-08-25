@@ -8,7 +8,7 @@ public class Probleme_sens_unique extends AppCompatActivity {
     private LinearLayout container_linear;
 
     private String def_1= "-> Les aretes de coupure doivent etre remplacées par deux arcs (pas de sens unique).\n" +
-            "\t Les autres aretes appartiennent toutes à une piste fermée => facile à orienter =W création de sens unique.";
+            "\t Les autres aretes appartiennent toutes à une piste fermée => facile à orienter => création de sens unique.";
     private String prop_1 = "BUT :\n" +
             "\t G est non-orienté connexe. On veut orienter ses aretes pour obtenir un graphe F. CONNEXE.";
     private String lemme_1 = "Condition :\n" +

@@ -20,7 +20,7 @@ public class Arete_coupure extends AppCompatActivity {
     private String other_2 = "Graphe k-connexe : si on enleve k-1 sommets/aretes, G reste connexe.";
     private String def_3 = "-> Si G connexe et n'a aucun point d'articulation, Alors G est AU MOINS 2-CONNEXE (pour les sommets).\n " +
             "\t - k(G) = donne le k (la connexité).";
-    private String propr_1 = "k-connexité pour les sommets ≠ k-connexité pour les aretes";
+    private String propr_1 = "k-connexité pour les sommets ≠ k-connexité pour les aretes.";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class Arete_coupure extends AppCompatActivity {
         outils.add_title(this, "Aretes de coupure", 20, 30,0,true, container_linear);
 
         outils.add_definition(this, def_arete_coupure, 15, 30, container_linear);
-        outils.add_image(this, R.drawable.arete_coupure, 15, 30, container_linear);
+        outils.add_image(this, R.drawable.arete_coupure1, 15, 30, container_linear);
         outils.add_definition(this, def_2, 15, 30, container_linear);
         outils.add_other(this, other_1, 15, 30, container_linear);
 
@@ -43,5 +43,7 @@ public class Arete_coupure extends AppCompatActivity {
         outils.add_other(this, other_2, 15, 30, container_linear);
         outils.add_definition(this, def_3, 15, 30, container_linear);
         outils.add_propriety(this, propr_1, 15, 30, container_linear);
+
+
     }
 }

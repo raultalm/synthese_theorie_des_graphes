@@ -10,7 +10,7 @@ public class Coupe_Ensemble_Coupures extends AppCompatActivity {
     private String def_connexe = "-> Soit G=(V, E) un multi-graphe non orienté CONNEXE.\n" +
             "\t - F ⊂ E est un ENSEMBLE DE COUPURES, une COUPE si" +
             " F est une ensemble minimal t.g. G-F N'EST pas connexe.\n" +
-            "\t - λ(G) = taille minimale d'une coupe";
+            "\t - λ(G) = taille minimale d'une coupe.";
 
     private String def_non_connexe = "-> Soit G=(V, E) un multi-graphe non orienté NON-CONNEXE.\n" +
             "\t - F ⊂ E est un ENSEMBLE DE COUPURES, une COUPE si" +

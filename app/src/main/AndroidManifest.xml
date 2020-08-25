@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Arbres"></activity>
+        <activity android:name=".Help"></activity>
+        <activity android:name=".Valeur_Propre" />
+        <activity android:name=".Arbres" />
         <activity android:name=".Tri_topologique" />
         <activity android:name=".Clique" />
         <activity android:name=".Probleme_sens_unique" />

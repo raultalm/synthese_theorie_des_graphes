@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Valeur_Propre"
     android:orientation="vertical"
     android:background="@color/background">
 
@@ -13,22 +13,11 @@
         android:layout_height="150dp">
 
         <TextView
-            android:id="@+id/help_txt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="?"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:textColor="@color/text_color"
-            android:textSize="30sp"
-            app:fontFamily="@font/arbutus" />
-
-        <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Theorie des graphes \n- Synthese -"
+            android:text="Valeurs/vecteurs propres and \n Polynome caract. d'une matrice"
             android:textColor="@color/title_color"
             android:textSize="30sp"
             app:fontFamily="@font/average" />
@@ -49,7 +38,7 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:id="@+id/main_verticalLayout"
+            android:id="@+id/valeur_propre_verticalLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />

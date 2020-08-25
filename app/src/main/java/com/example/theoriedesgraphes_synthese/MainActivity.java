@@ -52,11 +52,14 @@ public class MainActivity extends AppCompatActivity {
             Arbres.class,
             Arbres.class
     };
+    private TextView help;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         container_linear = (LinearLayout) findViewById(R.id.main_verticalLayout);
+        help = (TextView) findViewById(R.id.help_txt);
+
         list_texts = new ArrayList<TextView>();
         Outils outils = new Outils();
 
@@ -79,10 +82,15 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-    }
-    public void start_activity(View view, Class my_class) {
-        Intent intent = new Intent(this, my_class);
-        startActivity(intent);
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), Help.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
 }

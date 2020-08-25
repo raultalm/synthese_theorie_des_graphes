@@ -65,5 +65,13 @@ public class Arbres extends AppCompatActivity {
         outils.add_title(this, "- Exeplme - \nAlgo. de Kruskal sur G ", 20, 30,1 ,true, container_linear);
         outils.add_image(this, R.drawable.kruskal_init, 15, 30, container_linear);
         outils.add_image(this, R.drawable.kruskal, 15, 30, container_linear);
+
+        outils.add_title(this, "Parcours d'arbres", 20, 30,2,true, container_linear);
+
+        outils.add_image(this, R.drawable.arbre, 15, 30, container_linear);
+        outils.add_other(this, "Parcours préfixe : 0 - 1 - 2 - 5 - 8 - 3 - 4 - 6 - 7", 15, 30,  container_linear);
+        outils.add_other(this, "Parcours suffixe : 5 - 8 - 2 - 1 - 6 - 4 - 7 - 3 - 0", 15, 30,  container_linear);
+        outils.add_other(this, "Parcours infixe :  5 - 2 - 8 - 1 - 0 - 6 - 4 - 3 - 7", 15, 30,  container_linear);
+        outils.add_other(this, "Parcours en largeur : 0 - 1 - 3 - 2 - 4 - 7 - 5 - 8 - 6", 15, 30,  container_linear);
     }
 }
